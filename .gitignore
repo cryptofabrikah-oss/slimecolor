@@ -1,3 +1,24 @@
+# Ignora a pasta de cache do editor
 .godot/
+
+# Ignora arquivos de importação de recursos
+.import/
+
+# Ignora arquivos temporários de edição
 *.tmp
-*.import
+
+# Ignora backups de scripts
+*.backup
+
+# Ignora arquivos de exportação e builds
+/export/
+*.apk
+*.aab
+
+# Ignora logs e configurações locais
+*.log
+*.cfg
+
+# Ignora arquivos do sistema
+.DS_Store
+Thumbs.db
